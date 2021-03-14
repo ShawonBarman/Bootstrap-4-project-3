@@ -1,0 +1,502 @@
+*{
+   padding: 0px;
+   margin: 0px;
+
+}
+body{
+
+	font-family: Libre Franklin;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:  ;
+}
+a, a:hover{
+	text-decoration: none;
+	font-family: 'source sans pro', Libre Franklin ;
+
+}
+.header-section{
+	width: 100%;
+	background:url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+	width: 100%;
+    background-color: transparent !important;
+}
+.header-section .navbar-brand img{
+   width: 110px;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	color: #511de5;
+	background:url(../images/mhr.png) center bottom no-repeat;
+	background-size: contain;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	color: #511de5;
+	background:url(../images/mhr.png) center bottom no-repeat;
+	background-size: contain;
+}
+.header-section .btn-outline-success{
+	padding: 8px 35px;
+	font-weight: 700;
+	border-radius: 30px;
+	text-transform: capitalize;
+    border-color: #198754;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(to right,#511de5,#0e88fb);
+    transition: 1s;
+}
+.header-section .btn-outline-success:hover, .header-section .btn-outline-success:focus{
+	background: linear-gradient(to right,#0e88fb,#511de5);
+}
+.header-section .banner{
+	width: 100%;
+	padding: 173px 0px 163px;
+	text-align: right;
+}
+.header-section .banner h1{
+	font-size: 50px;
+	line-height: 55px;
+	font-weight: 700;
+	color: #000;
+	 margin-bottom: 25px;
+}
+.header-section .banner h1 span{
+	color: #511de5;
+}
+.header-section .banner .btn-info{
+	padding: 13px 35px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: capitalize;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    border-color: #198754;
+    border-radius: 20px;
+    font-size: 14px;
+    border:1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    color: #000;
+    margin-top: 15px;
+    transition: 1s;
+}
+.header-section .banner .btn-info:hover, .header-section .banner .btn-info:focus{
+    background-color: transparent;
+     border:1px solid #000;
+}
+.header-section .banner .fa{
+	margin-left: 5px;
+}
+          /*highligh section start*/
+.highlight{
+	width: 100%;
+	padding: 40px 0px;
+	background: url("../images/highlight.png") center top no-repeat;
+	background-size: cover;
+}          
+.highlight .inner-image{
+	  width: 100%;
+	  position: relative;
+}
+.highlight .inner-image img{
+	  width: 280px;
+	  position: absolute;
+	  top: -87px;
+	  left: 0;
+}
+.highlight h3{
+	font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 700;
+	text-align: center;
+}
+/*feature section start here*/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 90px 70px;
+    background: url("../images/fb.png") center bottom no-repeat;
+    background-size: cover;
+    box-shadow: 1px 4px 10px #ccc;
+}
+.feature .inner-feature h2{
+	font-size: 42px;
+	line-height: 47px;
+	color: #000;
+	font-weight: 700;
+	width: 47%;
+	margin-bottom: 15px;
+	
+}
+.feature .inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	width: 54%;
+	color: #000;
+}
+.feature .inner-feature h5{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #000;
+	margin: 80px 0px 105px;
+
+}
+.feature .inner-feature h5 span{
+	font-size: 90px;
+	line-height: 100px;
+	background: linear-gradient(to right,#511de5,#0e88fb);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+
+	margin-right: 10px;
+}
+.feature .client-logo{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.quote-section{
+	width: 100%;
+	background: url(../images/introbg.png) center top no-repeat;
+	background-size: cover;
+	padding: 150px 0px;
+}
+.quote-section .inner-image{
+	width: 100%;
+	padding: 140px 0px;
+	background: url("../images/q.png") center center no-repeat;
+	background-size: cover;
+}
+.quote-section .inner-image p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+
+}
+.quote-section .inner-image h5{
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+
+}
+.quote-section .title{
+	width: 100%;
+	margin-top: 80px;
+}
+.quote-section .title h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #000;
+	width: 83%;
+
+}
+.quote-section .btn-info{
+	padding: 13px 35px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    border-color: #198754;
+    border-radius: 20px;
+    font-size: 14px;
+    border:1px solid #fff;
+    background-color: transparent;
+    color: #000;
+    margin-top: 20px;
+    transition: 1s;
+
+}
+.quote-section .btn-info:hover, .quote-section .btn-info:focus{
+    background: linear-gradient(to right,#511de5,#0e88fb);
+     border:1px solid #511de5;
+     color: #fff;
+}
+.quote-section .btn-info .fa{
+	margin-left: 5px;
+}
+
+   /*efficiencyy start*/
+.efficiency-section{
+ 	width: 100%
+ 	
+ }  
+.efficiency-section .title{
+ 	width: 100%
+ 	padding-top: 150px;
+ 	
+ } 
+.efficiency-section .title h1{
+ 	font-size: 44px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #000;
+	width: 120%;
+	margin-bottom: 30px;
+	margin-top: 45px;
+}
+.efficiency-section .title h5{
+ 	font-size: 12px;
+	font-weight: 700;
+	color: #000;
+	line-height: 24px;
+	width: 116%;
+	margin-bottom: 35px;
+ } 
+ .efficiency-section .title p{
+ 	font-size: 12px;
+	font-weight: 700;
+	color: #000;
+	line-height: 24px;
+	width: 116%;
+	margin-top: 20px;
+ } 
+.efficiency-section .title .inner-p{
+     font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	line-height: 51px;
+}
+.efficiency-section .title .inner-p img{
+	margin-right: 20px;
+}
+.efficiency-section .btn-info{
+    padding: 13px 35px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    border-color: #198754;
+    border-radius: 20px;
+    font-size: 14px;
+    border:1px solid #fff;
+    background: linear-gradient(to right,#511de5,#0e88fb);
+    color: #fff;
+    margin-top: 30px;
+    transition: 1s;
+    margin-bottom: 100px;
+
+}
+.efficiency-section .btn-info:hover, .efficiency-section .btn-info:focus{
+	background: linear-gradient(to right,#0e88fb,#511de5);
+	color: #fff;
+}
+
+.efficiency-section .fa{
+margin-left: 5px;
+}
+.efficiency-section .inner-img{
+
+	width: 100%;
+	background-size: cover;
+	margin-left: 30px;
+	
+	
+}
+.efficiency-section .inner-img img{
+
+	width: 77%;
+	background-size: cover;
+	margin-left: 30px;
+
+}
+      /*efficiency-2 code start*/
+.efficiency-2{
+	width: 100%;
+	background-color: #fcfcfc;
+	margin-bottom: 100px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}      
+.efficiency-2 .title{
+	width: 100%;
+	text-align: center;
+}
+.efficiency-2 .title h2{
+    font-size: 44px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.efficiency-2 .title p{
+    font-size: 12px;
+	font-weight: 500;
+	color: #000;
+	line-height: 19px;
+
+}
+.efficiency-2 .inner-text{
+	margin-top: 80px;
+	width: 100%;
+	text-align: center;
+	border-right: 1px solid #eee;
+}
+.efficiency-2 .inner-text h2{
+    font-size: 27px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.efficiency-2 .inner-text p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+	line-height: 22px;
+	margin-bottom: 40px;
+}
+      /*quote code start*/
+.quote-2{
+	width: 100%;
+}      
+.quote-2 .title{
+	width: 100%;
+	text-align: center;
+}
+.quote-2 .title h1{
+	font-size: 42px;
+	font-weight: 700;
+	color: #000;
+
+}
+.quote-2 .inner-feature{
+	width: 100%;
+	background:url("../images/shape.png") center top no-repeat;
+	background-size: cover;
+	border:1px solid #eee;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 80px;
+	opacity: .5;
+	padding: 0px 20px 0px 20px;
+}
+.quote-2 .inner-feature:hover{
+	box-shadow: 1px 4px 10px #ccc;
+	background-color: #fff;
+	background:url("../images/shape.png") center top no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+.quote-2 .inner-feature .title{
+	width: 100%;
+
+}
+.quote-2 .inner-feature .title h4{
+	font-size: 16px;
+	font-weight: 500;
+	color: #999999;
+	margin-top: 90px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 80px;
+}
+.quote-2 .inner-feature:hover .title h4{
+    background: linear-gradient(to right,#511de5,#0e88fb);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.quote-2 .inner-feature .inner-image{
+	width: 100%;
+	
+}
+.quote-2 .inner-feature .inner-image img{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	color: #999999;
+
+}
+.quote-2 .inner-feature .inner-image h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: #999999;
+}
+.quote-2 .inner-feature:hover .inner-image h4{
+	color: #000;
+}
+.quote-2 .inner-feature .inner-image p{
+	font-size: 12px;
+	font-weight: 300;
+	color: #999999;
+	margin-bottom: 15px;
+}
+/*faq start*/
+.footer-section{
+	width: 100%
+	
+}
+.footer-section .title{
+	width: 100%;
+	box-shadow: 1px 4px 10px #ccc;
+	margin-left: 170px;
+
+	padding: 0px 220px 50px 112px;
+	position: relative;
+	z-index: 1;
+	
+}
+.footer-section .title h1{
+	font-size: 62px;
+	font-weight: 700;
+	color: #000;
+	padding-top: 80px;
+	text-align: center;
+	padding-left: 30px;
+	width: 116%;
+	margin-bottom: 105px;
+}
+.footer-section .title a{
+	width: 100%;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+.footer-section .title p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #000;
+	line-height: 22px;
+	width: 130%;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.footer-section .title h4{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	padding-top: 20px;
+}
+.footer-section .footer-img{
+	width: 100%;
+	background: url("../images/fbg.png") center top no-repeat;
+	background-size: cover;
+	margin-top: -570px;
+}
